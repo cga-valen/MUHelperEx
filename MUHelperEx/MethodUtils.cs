@@ -10,7 +10,7 @@ using System.Text;
 namespace MUHelperEx {
     public class MethodUtils {
         private static string[] BossSpawnText = new string[] { "美杜莎事件开始", "通往孵化魔地的入口已经开启了", "冰霜巨蛛已经登场了", "尼克斯BOSS已经重生", "水晶球已经在菲利亚君主房间刷新" };
-        private static string[] BossDieText = new string[] { "Boss天魔菲尼斯被", "Boss马格里姆被", "Boss辛维斯特被", "Boss昆顿被", "消灭了冰霜巨蛛", "Boss菲利亚君主被", "击杀了黑暗之神", "message 500" };
+        private static string[] BossDieText = new string[] { "Boss天魔菲尼斯被", "Boss马格里姆被", "Boss辛维斯特被", "Boss昆顿被", "消灭了冰霜巨蛛", "Boss菲利亚君主被", "击杀了黑暗之神", "message 500", "Boss尼克斯被" };
         private static string[] BossNextText = new string[] { "360分钟后孵化魔地将开启" };
 
         public static bool isBossSpawnMsg(string msg) {

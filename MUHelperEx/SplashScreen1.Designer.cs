@@ -26,6 +26,7 @@
             this.marqueeProgressBarControl1 = new DevExpress.XtraEditors.MarqueeProgressBarControl();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
             ((System.ComponentModel.ISupportInitialize)(this.marqueeProgressBarControl1.Properties)).BeginInit();
             this.SuspendLayout();
             // 
@@ -42,9 +43,9 @@
             this.labelControl1.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
             this.labelControl1.Location = new System.Drawing.Point(23, 130);
             this.labelControl1.Name = "labelControl1";
-            this.labelControl1.Size = new System.Drawing.Size(127, 13);
+            this.labelControl1.Size = new System.Drawing.Size(155, 13);
             this.labelControl1.TabIndex = 6;
-            this.labelControl1.Text = "Copyright © MarsEla 2019";
+            this.labelControl1.Text = "Copyright © MarsEla 2019-2020";
             // 
             // labelControl2
             // 
@@ -52,13 +53,22 @@
             this.labelControl2.Name = "labelControl2";
             this.labelControl2.Size = new System.Drawing.Size(158, 13);
             this.labelControl2.TabIndex = 7;
-            this.labelControl2.Text = "挂机助手 2019.11.28 加载中...";
+            this.labelControl2.Text = "挂机助手 2020.02.06 加载中...";
+            // 
+            // labelControl3
+            // 
+            this.labelControl3.Location = new System.Drawing.Point(347, 130);
+            this.labelControl3.Name = "labelControl3";
+            this.labelControl3.Size = new System.Drawing.Size(80, 13);
+            this.labelControl3.TabIndex = 8;
+            this.labelControl3.Text = "www.marsela.cn";
             // 
             // SplashScreen1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(451, 158);
+            this.Controls.Add(this.labelControl3);
             this.Controls.Add(this.labelControl2);
             this.Controls.Add(this.labelControl1);
             this.Controls.Add(this.marqueeProgressBarControl1);
@@ -76,5 +86,6 @@
         private DevExpress.XtraEditors.MarqueeProgressBarControl marqueeProgressBarControl1;
         private DevExpress.XtraEditors.LabelControl labelControl1;
         private DevExpress.XtraEditors.LabelControl labelControl2;
+        private DevExpress.XtraEditors.LabelControl labelControl3;
     }
 }
