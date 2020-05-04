@@ -8,7 +8,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyDescription("我们做出了一个艰难的决定. 由于只有极少的业余时间更新, 而调试游戏,抓包分析数据需要大量时间. 实在难以应付. 所以挂机助手从S14-2版本起即将收费. 每台电脑可以免费使用7天. 7天后需要充值的同学请加我微信, 懒得做在线支付了. 感谢大家一年以来的支持. 谢谢!")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("MUHelperEx")]
+[assembly: AssemblyProduct("MUHelperEx for S15")]
 [assembly: AssemblyCopyright("Copyright © MarsEla 2019-2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -28,5 +28,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.2.2")]
-[assembly: AssemblyFileVersion("1.0.2.2")]
+[assembly: AssemblyVersion("1.0.3.0")]
+[assembly: AssemblyFileVersion("1.0.3.0")]

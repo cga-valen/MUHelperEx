@@ -263,7 +263,7 @@ namespace MUHelperEx {
                         // 线路
                         character.Server = vm.ReadInt32(vm.ExeBase, Offsets.serverOffset);
                         // 角色名
-                        character.Name = vm.ReadString(vm.ExeBase, Offsets.nameOffset, Offsets.nameOffset2, 10);
+                        character.Name = vm.ReadString(vm.DllBase, Offsets.nameOffset, 10);
                         // 基本等级0-400
                         character.Level = vm.ReadInt32(vm.ExeBase, Offsets.levelOffset1, Offsets.levelOffset2);
                         // 400之后大师等级

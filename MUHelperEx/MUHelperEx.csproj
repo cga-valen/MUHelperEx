@@ -132,6 +132,7 @@
     <Compile Include="MethodUtils.cs" />
     <Compile Include="Offsets_S13.cs" />
     <Compile Include="Offsets.cs" />
+    <Compile Include="Offsets_S14.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Settings.cs" />

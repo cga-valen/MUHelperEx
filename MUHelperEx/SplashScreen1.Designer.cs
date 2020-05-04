@@ -53,7 +53,7 @@
             this.labelControl2.Name = "labelControl2";
             this.labelControl2.Size = new System.Drawing.Size(158, 13);
             this.labelControl2.TabIndex = 7;
-            this.labelControl2.Text = "挂机助手 2020.02.06 加载中...";
+            this.labelControl2.Text = "挂机助手 2020.03.22 加载中...";
             // 
             // labelControl3
             // 
