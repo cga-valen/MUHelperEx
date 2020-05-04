@@ -1,7 +1,7 @@
 ﻿namespace MUHelperEx
 {
     /// <summary>
-    /// 梦想奇迹 S14-2 版本基址偏移量
+    /// 梦想奇迹 S15 版本基址偏移量
     /// Presents By MarsEla
     /// </summary>
     public class Offsets
